@@ -208,6 +208,10 @@ doc_events = {
 	},
 	"Project": {"validate": "hrms.controllers.employee_boarding_controller.update_employee_boarding_status"},
 	"Task": {"on_update": "hrms.controllers.employee_boarding_controller.update_task"},
+
+	  "Salary Slip": {
+        "before_save": "hrms.api.overtime.add_overtime_to_salary_slip"
+    },
 }
 
 # Scheduled Tasks
@@ -362,5 +366,7 @@ company_data_to_be_ignored = [
 	"Employee Onboarding Template",
 	"Employee Separation Template",
 ]
+
+fixtures = ["Salary Component"]
 
 # new doctype

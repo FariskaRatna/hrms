@@ -16,6 +16,7 @@
   "start_time",
   "end_time",
   "total_in_hours",
+  "total_amount",
   "column_break_xusf",
   "description",
   "status",
@@ -129,13 +130,21 @@
    "options": "HR-LMBR-.YYYY.-",
    "print_hide": 1,
    "reqd": 1
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount",
+   "precision": "0",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-06 15:40:18.301589",
+ "modified": "2025-09-29 12:11:30.538925",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Overtime",

@@ -42,7 +42,7 @@
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "label": "Series",
-   "options": "HR-LMBR-.YYYY.-",
+   "options": "HR-REIM-.YYYY.-",
    "reqd": 1
   },
   {
@@ -89,9 +89,8 @@
    "label": "Reimbursement Details"
   },
   {
-   "fetch_from": "employee.passport_number",
    "fieldname": "expense_type",
-   "fieldtype": "Link",
+   "fieldtype": "Data",
    "in_global_search": 1,
    "label": "Expense Type",
    "options": "Employee",
@@ -130,7 +129,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-26 15:21:08.527203",
+ "modified": "2025-09-29 10:42:56.646183",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Reimbursement",

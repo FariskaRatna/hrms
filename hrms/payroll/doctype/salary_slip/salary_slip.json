@@ -30,6 +30,7 @@
   "column_break_ptcc",
   "salary_structure",
   "payroll_entry",
+  "overtime_amount",
   "mode_of_payment",
   "column_break_wyhp",
   "salary_slip_based_on_timesheet",
@@ -740,13 +741,20 @@
    "no_copy": 1,
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "overtime_amount",
+   "fieldtype": "Currency",
+   "label": "Overtime Amount",
+   "precision": "0",
+   "read_only": 1
   }
  ],
  "icon": "fa fa-file-text",
  "idx": 9,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-01 21:25:36.651583",
+ "modified": "2025-09-29 13:36:22.537047",
  "modified_by": "Administrator",
  "module": "Payroll",
  "name": "Salary Slip",
@@ -783,6 +791,7 @@
    "role": "Employee"
   }
  ],
+ "row_format": "Dynamic",
  "search_fields": "employee_name",
  "show_name_in_global_search": 1,
  "sort_field": "modified",
