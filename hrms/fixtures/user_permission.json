@@ -1,0 +1,41 @@
+[
+ {
+  "allow": "Employee",
+  "applicable_for": null,
+  "apply_to_all_doctypes": 1,
+  "docstatus": 0,
+  "doctype": "User Permission",
+  "for_value": "HR-EMP-00001",
+  "hide_descendants": 0,
+  "is_default": 0,
+  "modified": "2025-09-30 11:25:22.673013",
+  "name": "57qqm4n287",
+  "user": "pegawai1@gmail.com"
+ },
+ {
+  "allow": "Company",
+  "applicable_for": null,
+  "apply_to_all_doctypes": 1,
+  "docstatus": 0,
+  "doctype": "User Permission",
+  "for_value": "Information Systems (Demo)",
+  "hide_descendants": 0,
+  "is_default": 0,
+  "modified": "2025-09-30 11:25:22.705710",
+  "name": "57rlr46drs",
+  "user": "pegawai1@gmail.com"
+ },
+ {
+  "allow": "Company",
+  "applicable_for": null,
+  "apply_to_all_doctypes": 1,
+  "docstatus": 0,
+  "doctype": "User Permission",
+  "for_value": "Information Systems (Demo)",
+  "hide_descendants": 0,
+  "is_default": 0,
+  "modified": "2025-09-30 11:50:41.174913",
+  "name": "k2bdek012s",
+  "user": "hrd01@gmail.com"
+ }
+]

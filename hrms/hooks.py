@@ -367,6 +367,12 @@ company_data_to_be_ignored = [
 	"Employee Separation Template",
 ]
 
-fixtures = ["Salary Component"]
+fixtures = ["Salary Component",
+			"Custom DocPerm",
+			"User Permission",
+			"HR Settings",
+			"Email Template",
+			"Leave Type"
+			]
 
 # new doctype

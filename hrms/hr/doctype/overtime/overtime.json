@@ -109,6 +109,7 @@
    "label": "Status",
    "no_copy": 1,
    "options": "Open\nApproved\nRejected\nCancelled",
+   "permlevel": 1,
    "reqd": 1
   },
   {
@@ -144,7 +145,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-29 12:11:30.538925",
+ "modified": "2025-09-30 15:56:30.089749",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Overtime",
