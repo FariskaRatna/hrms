@@ -10,6 +10,7 @@
   "employee_name",
   "log_type",
   "shift",
+  "checkin_type",
   "column_break_4",
   "time",
   "device_id",
@@ -174,10 +175,17 @@
    "hidden": 1,
    "label": "Off-shift",
    "read_only": 1
+  },
+  {
+   "default": "Kantor",
+   "fieldname": "checkin_type",
+   "fieldtype": "Select",
+   "label": "Checkin Type",
+   "options": "Kantor\nDinas"
   }
  ],
  "links": [],
- "modified": "2025-03-05 15:36:10.014354",
+ "modified": "2025-10-01 11:06:51.461494",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Employee Checkin",
@@ -272,6 +280,7 @@
    "role": "Employee"
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "ASC",
  "states": [],

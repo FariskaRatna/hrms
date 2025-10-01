@@ -1,7 +1,7 @@
 [
  {
   "allow_employee_checkin_from_mobile_app": 1,
-  "allow_geolocation_tracking": 0,
+  "allow_geolocation_tracking": 1,
   "allow_multiple_shift_assignments": 0,
   "auto_leave_encashment": 0,
   "check_vacancies": 0,
@@ -16,10 +16,10 @@
   "hiring_sender": null,
   "hiring_sender_email": null,
   "interview_reminder_template": null,
-  "leave_approval_notification_template": null,
+  "leave_approval_notification_template": "Leave Approval Notification",
   "leave_approver_mandatory_in_leave_application": 1,
-  "leave_status_notification_template": null,
-  "modified": "2025-09-30 09:23:53.344922",
+  "leave_status_notification_template": "Leave Status Notification",
+  "modified": "2025-09-30 17:02:59.502050",
   "name": "HR Settings",
   "prevent_self_leave_approval": 0,
   "remind_before": "00:15:00",

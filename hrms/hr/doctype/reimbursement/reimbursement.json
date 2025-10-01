@@ -14,7 +14,7 @@
   "employee_designation",
   "employee_department",
   "reimbursement_details_section",
-  "expense_type",
+  "expense_ype",
   "date",
   "amount",
   "amended_from",
@@ -89,14 +89,6 @@
    "label": "Reimbursement Details"
   },
   {
-   "fieldname": "expense_type",
-   "fieldtype": "Data",
-   "in_global_search": 1,
-   "label": "Expense Type",
-   "options": "Employee",
-   "reqd": 1
-  },
-  {
    "fieldname": "date",
    "fieldtype": "Date",
    "label": "Date",
@@ -123,13 +115,20 @@
    "fieldtype": "Attach",
    "label": "Atatchment",
    "reqd": 1
+  },
+  {
+   "default": "Rawat Jalan",
+   "fieldname": "expense_ype",
+   "fieldtype": "Select",
+   "label": "Expense Type",
+   "options": "Rawat Jalan\nRawat Inap"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-29 10:42:56.646183",
+ "modified": "2025-10-01 11:46:39.922798",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Reimbursement",
