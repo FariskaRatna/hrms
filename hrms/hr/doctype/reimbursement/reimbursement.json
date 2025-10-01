@@ -17,9 +17,10 @@
   "expense_ype",
   "date",
   "amount",
-  "amended_from",
-  "column_break_uvge",
   "description",
+  "column_break_uvge",
+  "status",
+  "amended_from",
   "attachment"
  ],
  "fields": [
@@ -107,8 +108,7 @@
   {
    "fieldname": "description",
    "fieldtype": "Small Text",
-   "label": "Description",
-   "reqd": 1
+   "label": "Description"
   },
   {
    "fieldname": "attachment",
@@ -121,17 +121,26 @@
    "fieldname": "expense_ype",
    "fieldtype": "Select",
    "label": "Expense Type",
-   "options": "Rawat Jalan\nRawat Inap"
+   "options": "Rawat Jalan\nRawat Inap",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nApproved\nRejected\nCancelled",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-10-01 11:46:39.922798",
+ "modified": "2025-10-01 12:16:20.105758",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Reimbursement",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
