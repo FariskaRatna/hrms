@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-02 10:21:20.894131",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "travel_type",
+  "project_name",
+  "column_break_daff",
+  "code",
+  "section_break_pnp5",
+  "employee",
+  "employee_name",
+  "amended_from",
+  "column_break_savr",
+  "department",
+  "designation",
+  "travel_itinerary_section",
+  "itinerary",
+  "description_section",
+  "decription"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_pnp5",
+   "fieldtype": "Section Break",
+   "label": "Employee Details"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Business Trip",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "travel_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Travel Type",
+   "options": "Domestic\nInternational",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Project Name",
+   "options": "\nAA\nBB\nCC\nDD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_daff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Select",
+   "label": "Code",
+   "options": "\nAA\nBB\nCC"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_savr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "employee.department",
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.designation",
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "travel_itinerary_section",
+   "fieldtype": "Section Break",
+   "label": "Travel Itinerary"
+  },
+  {
+   "fieldname": "itinerary",
+   "fieldtype": "Table",
+   "options": "Travel Itinerary"
+  },
+  {
+   "fieldname": "description_section",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "decription",
+   "fieldtype": "Small Text",
+   "label": "Any for details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-10-02 17:20:40.114474",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Business Trip",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
